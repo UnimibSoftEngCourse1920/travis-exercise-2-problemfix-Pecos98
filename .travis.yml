@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "unimibsoftengcourse1920" # the key of the org you chose at step #3
     token:
-      secure: b345429f6094ff00fbb5219567bc6d5537ae10e0 # encrypted value of your token
+      secure: "b345429f6094ff00fbb5219567bc6d5537ae10e0" # encrypted value of your token
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - mvn sonar:sonar
